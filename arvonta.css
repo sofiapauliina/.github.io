@@ -1,0 +1,85 @@
+body {
+  height: 100%;
+  background-color: #FFF;
+  color: rgb(65, 0, 171);
+  text-align: center;
+  font-family: Helvetica;
+}
+
+h1 {
+margin-top: 5%;
+}
+
+#players {
+table-layout: fixed;
+}
+
+#grid-container{
+margin-top: 6%;
+display: grid;
+justify-content: center;
+grid-template-rows: none;
+height: 90%;
+}
+
+td {
+width: 33%
+}
+
+button{
+  padding: 14px 55px 14px 55px;
+  color: white;
+  background-color: rgb(65, 0, 171);
+  border-style: none;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px #D0C9EA;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+button:hover {
+   font-size: 20px;
+   box-shadow: 0px 10px 12px #D0C9EA;
+}
+
+#aloita{
+  margin-top: 50px;
+  height: 100%;
+}
+
+.pelaaja {
+border-style: none;
+margin-top: 29px;
+font-size: 26px;
+font-weight: bold;
+}
+
+#uusiPelaaja {
+position: relative;
+  margin-left: -65%;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#uusiPelaaja:hover, .fa:hover, button:hover{
+  cursor: pointer;
+}
+
+.fa {
+  color: rgba(65, 0 ,183, 0.9);
+}
+
+#plus {
+vertical-align: sub;
+line-height: inherit;
+}
+
+#trash {
+padding-left: 14px;
+vertical-align: sub;
+}
+
+a {
+text-size: 12px;
+}
